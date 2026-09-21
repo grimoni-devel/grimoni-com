@@ -30,7 +30,8 @@
     <h2>2. Quines dades tractem</h2>
     <ul>
       <li><strong>Dades de contacte i consulta:</strong> nom, correu, empresa, càrrec i contingut que la persona inclogui voluntàriament en el seu missatge.</li>
-      <li><strong>Dades tècniques de navegació:</strong> adreça IP, data i hora, recurs sol·licitat, codi de resposta, navegador i dades tècniques equivalents que el servidor pugui registrar per operar i protegir el lloc web.</li>
+      <li><strong>Dades tècniques de navegació:</strong> adreça IP, data i hora, recurs sol·licitat, codi de resposta, navegador i dades tècniques equivalents que el servidor i els seus proveïdors d’infraestructura puguin registrar per operar i protegir el lloc web.</li>
+      <li><strong>Mètriques de rendiment i ús:</strong> Cloudflare Web Analytics / Real User Monitoring (RUM) recull des del navegador mètriques tècniques de rendiment de la pàgina, com ara temps de càrrega i Core Web Vitals, per diagnosticar i millorar el funcionament del lloc web.</li>
       <li><strong>Dades de relació professional:</strong> informació necessària per preparar una proposta, gestionar la relació contractual, prestar serveis, facturar i complir obligacions legals, quan la relació vagi més enllà d’una consulta web.</li>
     </ul>
     <p>No sol·licitem categories especials de dades a través del lloc web. Evita incloure informació sensible o documentació confidencial en un primer correu, llevat que sigui imprescindible i hi hagi un canal acordat.</p>
@@ -38,7 +39,7 @@
     <h2>3. Finalitats, bases jurídiques i conservació</h2>
     <div class="legal-table-wrap"><table class="legal-table"><thead><tr><th>Tractament</th><th>Finalitat i base jurídica</th><th>Conservació</th></tr></thead><tbody>
       <tr><td>Consultes i sol·licituds</td><td>Respondre, avaluar el cas i aplicar mesures precontractuals sol·licitades per la persona; quan escaigui, interès legítim a gestionar relacions professionals.</td><td>Fins a 24 mesos des del darrer contacte si no s’inicia una relació, llevat que calgui conservar-les per formular o defensar reclamacions.</td></tr>
-      <tr><td>Seguretat i registres tècnics</td><td>Operar, diagnosticar i protegir el lloc web sobre la base de l’interès legítim en la seguretat de sistemes i xarxes.</td><td>Amb caràcter general, fins a 30 dies; durant més temps si hi ha una incidència o una obligació legal.</td></tr>
+      <tr><td>Seguretat, registres tècnics i RUM</td><td>Operar, diagnosticar, protegir i millorar el rendiment del lloc web sobre la base de l’interès legítim en la seguretat i fiabilitat de sistemes i xarxes.</td><td>Registres propis: amb caràcter general, fins a 30 dies; més temps si hi ha una incidència o una obligació legal. Les mètriques de Cloudflare es conserven d’acord amb la seva configuració i documentació aplicables.</td></tr>
       <tr><td>Relació contractual i facturació</td><td>Executar el contracte i complir obligacions comptables, fiscals i legals.</td><td>Durant la relació i, posteriorment, durant els terminis legals de conservació i prescripció aplicables.</td></tr>
     </tbody></table></div>
 
@@ -49,6 +50,7 @@
     <p>No venem dades personals. Hi podran accedir proveïdors que actuen per compte de Grimoni i que són necessaris per a la prestació i la seguretat dels serveis, principalment:</p>
     <ul>
       <li><strong>Hetzner:</strong> infraestructura i allotjament.</li>
+      <li><strong>Cloudflare:</strong> xarxa, seguretat, lliurament de contingut i mètriques de rendiment RUM/Web Analytics.</li>
       <li><strong>Microsoft 365:</strong> correu electrònic, col·laboració i emmagatzematge associat a les comunicacions.</li>
       <li>Assessors professionals, entitats financeres i administracions públiques quan sigui necessari per gestionar la relació o complir una obligació legal.</li>
     </ul>
@@ -68,7 +70,7 @@
     <p>Apliquem mesures tècniques i organitzatives proporcionades als riscos per evitar accessos no autoritzats, pèrdua, alteració o divulgació. Cap sistema és infal·lible; si detectes una incidència relacionada amb grimoni.com, notifica-la a <a class="legal-link" href="mailto:info@grimoni.com?subject=Incid%C3%A8ncia%20de%20seguretat">info@grimoni.com</a>.</p>
 
     <h2>10. Galetes i canvis</h2>
-    <p>La configuració actual del lloc web es descriu a la <a class="legal-link" href="cookies.html">Política de galetes</a>. Aquesta política es podrà actualitzar si canvien els tractaments, els proveïdors o la normativa; la data de la versió vigent apareixerà al principi.</p>
+    <p>La configuració actual no instal·la galetes ni escriu dades a <code>localStorage</code> o <code>sessionStorage</code>. Tanmateix, el lloc web utilitza el beacon de Cloudflare Web Analytics / RUM per obtenir mètriques tècniques de rendiment i ús. Segons la documentació de Cloudflare, aquest beacon no accedeix a galetes, <code>localStorage</code>, <code>sessionStorage</code>, IndexedDB ni a altres dades emmagatzemades al dispositiu. Pots consultar-ne el detall a la <a class="legal-link" href="cookies.html">Política de galetes</a>. Aquesta política es podrà actualitzar si canvien els tractaments, els proveïdors o la normativa; la data de la versió vigent apareixerà al principi.</p>
   </div></section>
 </main>
 <footer class="site-footer"><div class="shell footer-grid"><a class="brand footer-brand" href="index.html"><img src="../assets/img/logo.png" alt="Grimoni"></a><p>Sistemes d’intel·ligència artificial<br>per a operacions reals.</p><div class="footer-links"><a href="aviso-legal.html">Legal</a><a href="privacy.html" aria-current="page">Privacitat</a><a href="cookies.html">Galetes</a><a href="tos.html">Condicions</a></div><p class="copyright">© <span id="year"></span> Grimoni, SLU</p></div></footer>

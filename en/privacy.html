@@ -29,14 +29,15 @@
 <h2>2. Data we process</h2>
 <ul>
 <li><strong>Contact and inquiry data:</strong> name, email address, company, position and any content voluntarily included in the message.</li>
-<li><strong>Technical browsing data:</strong> IP address, date and time, requested resource, response code, browser and equivalent technical data that the server may record to operate and protect the website.</li>
+<li><strong>Technical browsing data:</strong> IP address, date and time, requested resource, response code, browser and equivalent technical data that the server and its infrastructure providers may record to operate and protect the website.</li>
+<li><strong>Performance and usage metrics:</strong> Cloudflare Web Analytics / Real User Monitoring (RUM) collects technical page-performance metrics from the browser, such as loading times and Core Web Vitals, to diagnose and improve the website’s operation.</li>
 <li><strong>Professional relationship data:</strong> information needed to prepare a proposal, manage the contractual relationship, provide services, issue invoices and comply with legal obligations when the relationship progresses beyond a website inquiry.</li>
 </ul>
 <p>We do not request special categories of data through the website. Avoid including sensitive information or confidential documents in an initial email unless essential and an agreed channel is in place.</p>
 <h2>3. Purposes, legal bases and retention</h2>
 <div class="legal-table-wrap"><table class="legal-table"><thead><tr><th>Processing</th><th>Purpose and legal basis</th><th>Retention</th></tr></thead><tbody>
 <tr><td>Inquiries and requests</td><td>To respond, assess the case and take pre-contractual steps requested by the person; where applicable, legitimate interest in managing professional relationships.</td><td>Up to 24 months from the last contact if no relationship begins, unless retention is necessary to establish or defend legal claims.</td></tr>
-<tr><td>Security and technical logs</td><td>To operate, diagnose and protect the website based on the legitimate interest in system and network security.</td><td>Generally, up to 30 days; longer if there is an incident or a legal obligation.</td></tr>
+<tr><td>Security, technical logs and RUM</td><td>To operate, diagnose, protect and improve the website’s performance based on the legitimate interest in system and network security and reliability.</td><td>Our logs: generally, up to 30 days; longer if there is an incident or legal obligation. Cloudflare metrics are retained according to its applicable configuration and documentation.</td></tr>
 <tr><td>Contractual relationship and billing</td><td>To perform the contract and comply with accounting, tax and legal obligations.</td><td>During the relationship and subsequently for the applicable statutory retention and limitation periods.</td></tr>
 </tbody></table></div>
 <h2>4. Source and nature of the data</h2>
@@ -45,6 +46,7 @@
 <p>We do not sell personal data. Providers acting on Grimoni’s behalf may access it where necessary to provide and secure the services, principally:</p>
 <ul>
 <li><strong>Hetzner:</strong> infrastructure and hosting.</li>
+<li><strong>Cloudflare:</strong> network, security, content delivery and RUM/Web Analytics performance metrics.</li>
 <li><strong>Microsoft 365:</strong> email, collaboration and storage associated with communications.</li>
 <li>Professional advisers, financial institutions and public authorities where necessary to manage the relationship or comply with a legal obligation.</li>
 </ul>
@@ -59,7 +61,7 @@
 <h2>9. Security</h2>
 <p>We apply technical and organizational measures proportionate to the risks to prevent unauthorized access, loss, alteration or disclosure. No system is infallible; if you detect an incident relating to grimoni.com, report it to <a class="legal-link" href="mailto:info@grimoni.com?subject=Security%20incident">info@grimoni.com</a>.</p>
 <h2>10. Cookies and changes</h2>
-<p>The website’s current configuration is described in the <a class="legal-link" href="cookies.html">Cookie Policy</a>. This policy may be updated if processing activities, providers or regulations change; the date of the current version will appear at the top.</p>
+<p>The current configuration does not set cookies or write data to <code>localStorage</code> or <code>sessionStorage</code>. However, the website uses the Cloudflare Web Analytics / RUM beacon to obtain technical performance and usage metrics. According to Cloudflare’s documentation, this beacon does not access cookies, <code>localStorage</code>, <code>sessionStorage</code>, IndexedDB or other data stored on the device. See the <a class="legal-link" href="cookies.html">Cookie Policy</a> for details. This policy may be updated if processing activities, providers or regulations change; the date of the current version will appear at the top.</p>
 </div></section>
 </main>
 <footer class="site-footer"><div class="shell footer-grid"><a class="brand footer-brand" href="index.html"><img alt="Grimoni" src="../assets/img/logo.png"/></a><p>Artificial intelligence systems<br/>for real-world operations.</p><div class="footer-links"><a href="aviso-legal.html">Legal</a><a aria-current="page" href="privacy.html">Privacy</a><a href="cookies.html">Cookies</a><a href="tos.html">Terms</a></div><p class="copyright">© <span id="year"></span> Grimoni, SLU</p></div></footer>

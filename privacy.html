@@ -30,7 +30,8 @@
     <h2>2. Qué datos tratamos</h2>
     <ul>
       <li><strong>Datos de contacto y consulta:</strong> nombre, correo, empresa, cargo y contenido que la persona incluya voluntariamente en su mensaje.</li>
-      <li><strong>Datos técnicos de navegación:</strong> dirección IP, fecha y hora, recurso solicitado, código de respuesta, navegador y datos técnicos equivalentes que pueda registrar el servidor para operar y proteger el sitio.</li>
+      <li><strong>Datos técnicos de navegación:</strong> dirección IP, fecha y hora, recurso solicitado, código de respuesta, navegador y datos técnicos equivalentes que puedan registrar el servidor y sus proveedores de infraestructura para operar y proteger el sitio.</li>
+      <li><strong>Métricas de rendimiento y uso:</strong> Cloudflare Web Analytics / Real User Monitoring (RUM) recoge desde el navegador métricas técnicas de rendimiento de la página, como tiempos de carga y Core Web Vitals, para diagnosticar y mejorar el funcionamiento del sitio.</li>
       <li><strong>Datos de relación profesional:</strong> información necesaria para preparar una propuesta, gestionar la relación contractual, prestar servicios, facturar y cumplir obligaciones legales, cuando la relación avance más allá de una consulta web.</li>
     </ul>
     <p>No solicitamos a través del sitio categorías especiales de datos. Evita incluir información sensible o documentación confidencial en un primer correo salvo que sea imprescindible y exista un canal acordado.</p>
@@ -38,7 +39,7 @@
     <h2>3. Finalidades, bases jurídicas y conservación</h2>
     <div class="legal-table-wrap"><table class="legal-table"><thead><tr><th>Tratamiento</th><th>Finalidad y base jurídica</th><th>Conservación</th></tr></thead><tbody>
       <tr><td>Consultas y solicitudes</td><td>Responder, evaluar el caso y aplicar medidas precontractuales solicitadas por la persona; cuando proceda, interés legítimo en gestionar relaciones profesionales.</td><td>Hasta 24 meses desde el último contacto si no se inicia una relación, salvo necesidad de conservarlo para formular o defender reclamaciones.</td></tr>
-      <tr><td>Seguridad y registros técnicos</td><td>Operar, diagnosticar y proteger el sitio sobre la base del interés legítimo en la seguridad de sistemas y redes.</td><td>Con carácter general, hasta 30 días; durante más tiempo si existe una incidencia o una obligación legal.</td></tr>
+      <tr><td>Seguridad, registros técnicos y RUM</td><td>Operar, diagnosticar, proteger y mejorar el rendimiento del sitio sobre la base del interés legítimo en la seguridad y fiabilidad de sistemas y redes.</td><td>Registros propios: con carácter general, hasta 30 días; más tiempo si existe una incidencia u obligación legal. Las métricas de Cloudflare se conservan conforme a su configuración y documentación aplicables.</td></tr>
       <tr><td>Relación contractual y facturación</td><td>Ejecutar el contrato y cumplir obligaciones contables, fiscales y legales.</td><td>Durante la relación y, posteriormente, durante los plazos legales de conservación y prescripción aplicables.</td></tr>
     </tbody></table></div>
 
@@ -49,6 +50,7 @@
     <p>No vendemos datos personales. Podrán acceder a ellos proveedores que actúan por cuenta de Grimoni y resultan necesarios para la prestación y seguridad de los servicios, principalmente:</p>
     <ul>
       <li><strong>Hetzner:</strong> infraestructura y alojamiento.</li>
+      <li><strong>Cloudflare:</strong> red, seguridad, entrega de contenido y métricas de rendimiento RUM/Web Analytics.</li>
       <li><strong>Microsoft 365:</strong> correo electrónico, colaboración y almacenamiento asociado a las comunicaciones.</li>
       <li>Asesores profesionales, entidades financieras y administraciones públicas cuando sea necesario para gestionar la relación o cumplir una obligación legal.</li>
     </ul>
@@ -68,7 +70,7 @@
     <p>Aplicamos medidas técnicas y organizativas proporcionadas a los riesgos para evitar accesos no autorizados, pérdida, alteración o divulgación. Ningún sistema es infalible; si detectas una incidencia relacionada con grimoni.com, notifícala a <a class="legal-link" href="mailto:info@grimoni.com?subject=Incidencia%20de%20seguridad">info@grimoni.com</a>.</p>
 
     <h2>10. Cookies y cambios</h2>
-    <p>La configuración actual del sitio se describe en la <a class="legal-link" href="cookies.html">Política de cookies</a>. Esta política podrá actualizarse si cambian los tratamientos, los proveedores o la normativa; la fecha de la versión vigente aparecerá al inicio.</p>
+    <p>La configuración actual no instala cookies ni escribe datos en <code>localStorage</code> o <code>sessionStorage</code>. Sin embargo, el sitio utiliza el beacon de Cloudflare Web Analytics / RUM para obtener métricas técnicas de rendimiento y uso. Según la documentación de Cloudflare, este beacon no accede a cookies, <code>localStorage</code>, <code>sessionStorage</code>, IndexedDB ni a otros datos almacenados en el dispositivo. Puedes consultar el detalle en la <a class="legal-link" href="cookies.html">Política de cookies</a>. Esta política podrá actualizarse si cambian los tratamientos, los proveedores o la normativa; la fecha de la versión vigente aparecerá al inicio.</p>
   </div></section>
 </main>
 <footer class="site-footer"><div class="shell footer-grid"><a class="brand footer-brand" href="index.html"><img src="assets/img/logo.png" alt="Grimoni"></a><p>Sistemas de inteligencia artificial<br>para operaciones reales.</p><div class="footer-links"><a href="aviso-legal.html">Legal</a><a href="privacy.html" aria-current="page">Privacidad</a><a href="cookies.html">Cookies</a><a href="tos.html">Condiciones</a></div><p class="copyright">© <span id="year"></span> Grimoni, SLU</p></div></footer>
